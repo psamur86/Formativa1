@@ -1,0 +1,16 @@
+.todo{
+    display: grid;
+    place-items: center;
+}
+
+label, h3{
+    text-align: center;
+    display:flex;
+    width: 160px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+input, textarea, select{  
+    border-radius: 5px;
+}
