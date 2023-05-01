@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img src="imagen/GOLDEN YEARS.png"  width="250" height="250">
+    <div class="Registro">
+        <form action="" id="formulario">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+            </div>
+            <div>
+                <label for="apellidop">Apellido Paterno</label>
+                <input type="text" id="apellidop">
+            </div>
+            <div>
+                <label for="apellidom">Apellido Materno</label>
+                <input type="text" id="apellidom">
+            </div>
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" id="edad">
+            </div>
+            <div>
+                <label for="genero">Genero</label>
+                <select name="genero" id="genero">
+                    <option value="0">Seleccione un genero</option>
+                    <option value="1">Masculino</option>
+                    <option value="2">Femenino</option>
+                </select>
+            </div>
+            <div>
+                <label for="celular">Celular</label>
+                <input type="number" id="celular">
+            </div>
+            
+            <a href="registro2.html"><input type="button" value="siguiente"></a>
+    
+        </form>
+        <div id="error">
+        </div>
+</body>
+</html>

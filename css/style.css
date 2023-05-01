@@ -1,0 +1,50 @@
+.ingreso{
+    display: grid;
+    place-items: center;
+}
+
+label, h3{
+    text-align: center;
+    display:flex;
+    width: 160px;
+    font-family:'Arial', Courier, monospace;
+    font-weight: bold;
+}
+
+input, textarea, select{  
+    border-radius: 5px;
+}
+
+.Registro{
+    display: grid;
+    place-items: center;
+}
+
+label, h3{
+    text-align: center;
+    display:flex;
+    width: 160px;
+    font-family:'Arial', Courier, monospace;
+    font-weight: bold;
+}
+
+input, textarea, select{  
+    border-radius: 5px;
+}
+
+.Registro2{
+    display: grid;
+    place-items: center;
+}
+
+label, h3{
+    text-align: center;
+    display:flex;
+    width: 160px;
+    font-family:'Arial', Courier, monospace;
+    font-weight: bold;
+}
+
+input, textarea, select{  
+    border-radius: 5px;
+}
