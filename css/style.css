@@ -1,6 +1,27 @@
 .ingreso{
     display: grid;
     place-items: center;
+    width: 300;
+    height: 300;
+}
+
+label, h3{
+    text-align: center;
+    display:flex;
+    width: 200px;
+    font-family:'Arial', Courier, monospace;
+    font-weight: bold;
+}
+
+input, textarea, select{  
+    border-radius: 5px;
+}
+
+.registro{
+    display: grid;
+    place-items: center;
+    width: 300;
+    height: 300;
 }
 
 label, h3{
@@ -15,9 +36,11 @@ input, textarea, select{
     border-radius: 5px;
 }
 
-.Registro{
+.registro2{
     display: grid;
     place-items: center;
+    width: 300;
+    height: 300;
 }
 
 label, h3{
@@ -32,9 +55,11 @@ input, textarea, select{
     border-radius: 5px;
 }
 
-.Registro2{
+.registro3{
     display: grid;
     place-items: center;
+    width: 300;
+    height: 300;
 }
 
 label, h3{
