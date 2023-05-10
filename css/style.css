@@ -1,8 +1,47 @@
 .ingreso{
+    background: #f5f4f4;
+    position: fixed;
+    left: 600px;
+    top: 350px;
+    width: 250px;
+    height: 200px;
     display: grid;
     place-items: center;
-    width: 300;
-    height: 300;
+
+    
+}
+
+input, textarea, select{  
+    border-radius: 5px;
+}
+
+.registro{
+    background: #f5f4f4;
+    position: fixed;
+    left: 600px;
+    top: 350px;
+    width: 300px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+label, h3{
+    text-align: center;
+    display:flex;
+    width: 200px;
+    font-family:'Arial', Courier, monospace;
+    font-weight: bold;
+}
+.registro2{
+    background: #f5f4f4;
+    position: fixed;
+    left: 500px;
+    top: 350px;
+    width: 500px;
+    height: 400px;
+    display: grid;
+    place-items: center;
 }
 
 label, h3{
@@ -13,63 +52,47 @@ label, h3{
     font-weight: bold;
 }
 
-input, textarea, select{  
-    border-radius: 5px;
-}
+.contenedor{
+    position: fixed;
+    right: 0px;
+    top: 0px
 
-.registro{
-    display: grid;
-    place-items: center;
-    width: 300;
-    height: 300;
-}
 
-label, h3{
-    text-align: center;
-    display:flex;
-    width: 160px;
-    font-family:'Arial', Courier, monospace;
-    font-weight: bold;
-}
-
-input, textarea, select{  
-    border-radius: 5px;
-}
-
-.registro2{
-    display: grid;
-    place-items: center;
-    width: 300;
-    height: 300;
-}
-
-label, h3{
-    text-align: center;
-    display:flex;
-    width: 160px;
-    font-family:'Arial', Courier, monospace;
-    font-weight: bold;
-}
-
-input, textarea, select{  
-    border-radius: 5px;
 }
 
 .registro3{
+    background: #f5f4f4;
+    position: fixed;
+    left: 500px;
+    top: 350px;
+    width: 500px;
+    height: 400px;
     display: grid;
     place-items: center;
-    width: 300;
-    height: 300;
 }
 
 label, h3{
     text-align: center;
     display:flex;
-    width: 160px;
+    width: 300px;
     font-family:'Arial', Courier, monospace;
     font-weight: bold;
 }
+ .titulo{
+    position: fixed;
+    left: 600px;
+    top: 200px;
+    color: rgb(118, 0, 0);
+ }
 
-input, textarea, select{  
-    border-radius: 5px;
-}
+ .titulo2{
+    position: fixed;
+    left: 600px;
+    top: 200px;
+    color: rgb(118, 0, 0);
+ }
+ .carusel{
+    position: fixed;
+    right: 0px;
+    top: 0px
+ }
