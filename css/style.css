@@ -101,3 +101,203 @@ button [type="button"] {
   button[type="button"]:hover {
     background-color: #ff0000;
   }
+
+  
+
+  header {
+    background-color: #e61818;
+    border-bottom: 1px solid #e13030;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fbf9f9;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ddd;
+  }
+  
+
+
+
+
+
+  #chat-container {
+    position: fixed;
+    left: 600px;
+    top: 50px;
+    border: 1px solid #ccc;
+    width: 600px;
+    height: 600px;
+  }
+  
+  #chat-messages {
+    height: 80%;
+    overflow-y: scroll;
+  }
+  
+  #chat-input {
+    height: 20%;
+    display: flex;
+    align-items: center;
+  }
+  
+  #chat-input form {
+    display: flex;
+    width: 100%;
+  }
+  
+  #chat-input input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  #chat-input button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ea1313;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+
+
+
+
+  .profile-card {
+    display: flex;
+    position: fixed;
+    left: 700px;
+    top: 50px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-photo img {
+    border-radius: 50%;
+  }
+  
+  .profile-info h1 {
+    margin-top: 0;
+  }
+  
+  .profile-info p {
+    margin-bottom: 10px;
+  }
+  
+
+
+
+
+
+  .match-system {
+    display: flex;
+    position: fixed;
+    top: 50px;
+    left: 600px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .match-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .match-profile img {
+    border-radius: 50%;
+  }
+  
+  .match-profile h2 {
+    margin-top: 0;
+  }
+  
+  .match-profile p {
+    margin-bottom: 10px;
+  }
+  
+  .like-button, .dislike-button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .like-button {
+    background-color: green;
+  }
+  
+  .dislike-button {
+    background-color: red;
+  }
+  
+  .match-result {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .match-result p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .chat-button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    cursor: pointer;
+  }
+  
