@@ -12,48 +12,23 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </head>
 <body>
-    <img src="imagen/GOLDEN YEARS.png"  width="300" height="300">
-    <div id="carusel" class="carusel">
-      <div class="carousel-inner ">
-        <div class="carousel-item ">
-          <img src="imagen/pareja.jpg" width="600" height="1000"  class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item ">
-          <img src="imagen/pareja2.jpg" width="600" height="1000"  class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item active ">
-          <img src="imagen/parrja3.jpg" width="600" height="1000" class="d-block w-100"alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+  <div class="contenedor">
+    <div class="carrusel active">
+      <img src="imagen/abuelos.jpg" alt="Imagen 1">
+      <img src="imagen/abuelos2.jpg" alt="Imagen 2">
+      <img src="imagen/abuelos3.jpg" alt="Imagen 3">
     </div>
+    <div class="formulario">
+    <h1>Suba su foto de perfio</h1>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      <input type="file" name="image" id="image">
+      <div> <a href="registro3.html"><input type="button" value="siguiente"></a></div>
 
-      <div class="titulo2"><h1>Unete a nosotros</h1></div>    
-
-    <div class="registro2">
-      <form action="" id="registro">
-
-         <h3>Escoja su foto de perfil</h3>
-
-        <div>
-         <form name="subida-imagenes" type="POST" enctype="multipart/formdata" >
-	       <input type="file" name="imagen1" />
-	      <input type="submit" name="subir-imagen" value="Aceptar" />
-        </div>
-
-         <a href="registro3.html"><input type="button" value="siguiente"></a>
-
-      </form>
-      <div id="error">
-      </div>
-  
-      <script src="app.js"></script>
+    </form>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="validacion.js"></script>
+</body>
+</html>
 </body>
 </html>

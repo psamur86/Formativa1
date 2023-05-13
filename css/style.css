@@ -1,98 +1,103 @@
-.ingreso{
-    background: #f5f4f4;
-    position: fixed;
-    left: 600px;
-    top: 350px;
-    width: 250px;
-    height: 200px;
-    display: grid;
-    place-items: center;
 
-    
-}
-
-input, textarea, select{  
-    border-radius: 5px;
-}
-
-.registro{
-    background: #f5f4f4;
-    position: fixed;
-    left: 600px;
-    top: 350px;
-    width: 300px;
-    height: 400px;
-    display: grid;
-    place-items: center;
-}
-
-label, h3{
+ .contenedor {
     text-align: center;
-    display:flex;
-    width: 200px;
-    font-family:'Arial', Courier, monospace;
-    font-weight: bold;
-}
-.registro2{
-    background: #f5f4f4;
-    position: fixed;
-    left: 500px;
-    top: 350px;
-    width: 500px;
-    height: 400px;
-    display: grid;
-    place-items: center;
-}
-
-label, h3{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccccccb1;
+  }
+  
+  h1 {
     text-align: center;
-    display:flex;
-    width: 200px;
-    font-family:'Arial', Courier, monospace;
+  }
+  
+  .campo {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
     font-weight: bold;
-}
-
-.contenedor{
-    position: fixed;
-    right: 0px;
-    top: 0px
-
-
-}
-
-.registro3{
-    background: #f5f4f4;
-    position: fixed;
-    left: 500px;
-    top: 350px;
-    width: 500px;
-    height: 400px;
-    display: grid;
-    place-items: center;
-}
-
-label, h3{
+  }
+  
+  input[type="text"], input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ff0000;
+  }
+  
+  #mensaje-error {
+    color: #f00;
+    margin-top: 10px;
     text-align: center;
-    display:flex;
-    width: 300px;
-    font-family:'Arial', Courier, monospace;
-    font-weight: bold;
+  }
+  
+  .carrusel {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .carrusel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: slide 10s infinite;
+  }
+  
+  .formulario {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  @keyframes slide {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 1;
+    }
+    53% {
+      opacity: 0;
+    }
 }
- .titulo{
-    position: fixed;
-    left: 600px;
-    top: 200px;
-    color: rgb(118, 0, 0);
- }
 
- .titulo2{
-    position: fixed;
-    left: 600px;
-    top: 200px;
-    color: rgb(118, 0, 0);
- }
- .carusel{
-    position: fixed;
-    right: 0px;
-    top: 0px
- }
+button [type="button"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button[type="button"]:hover {
+    background-color: #ff0000;
+  }
